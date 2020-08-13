@@ -27,3 +27,28 @@ img {
 * {
 	box-sizing: border-box;
 }
+
+/* SuperInfo */
+
+.superinfo-bg {
+  background: #122ab2;
+  color: white;
+}
+
+.superinfo {
+  max-width: 960px;
+  margin: 0 auto;  /* centralizar o item a partir de 960px*/
+  display: flex;  /* Torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens. */
+  justify-content: space-between; /* Cria um espaçamento igual entre os elementos. Mantendo o primeiro grudado no início e o último no final. */
+  flex-wrap: wrap; /* Define se os itens devem quebrar ou não a linha */
+  padding-top: 10px;
+}
+
+/* Cada um dos items do superinfo */
+.superinfo p, .superinfo a{
+  margin: 0 10px 10px 10px ;
+}
+
+.superinfo a{
+  color: white;
+}
