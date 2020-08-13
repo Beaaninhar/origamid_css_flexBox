@@ -1,0 +1,29 @@
+/* Reset propriedades */
+body, h1, h2, p, ul, li, a {
+	margin: 0px;
+  padding: 0px;
+}
+/* Defindo a fonte geral e a cor */
+body {
+	font-family: "Nunito", Helvetica, Arial, sans-serif;
+	color: #222222;
+}
+
+/* Removendo os estilos das listas */
+ul {
+	list-style: none;
+}
+ /* Removendo os estilos dos links */
+a {
+	text-decoration: none;
+}
+
+/* Comfigurando as imagens (forma responsiva tbm)  */
+img {
+	display: block;
+	max-width: 100%;
+}
+/* Estilizando tds */
+* {
+	box-sizing: border-box;
+}
