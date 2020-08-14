@@ -52,3 +52,47 @@ img {
 .superinfo a{
   color: white;
 }
+
+/*Menu*/
+
+.menu-bg {
+	background: #2c70ff;
+}
+
+/* container geral que pega os items*/
+.menu {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 15px 0;
+	display: flex;
+	flex-wrap: wrap; /* Para poder quebrar MOBILE*/
+	justify-content: space-between; /* Espaço igual*/
+	align-items: center; /* Centraliza o item no centro*/
+}
+
+.menu a {
+	color: white;
+}
+
+.menu-logo a {
+	font-size: 2.25em;
+	font-weight: bold;
+	margin: 0 10px;
+}
+
+.menu-nav ul {
+	display: flex;
+	flex-wrap: wrap; /* Para poder quebrar MOBILE*/
+}
+
+.menu-nav a {
+	font-size: 1.25em;
+	display: block;
+	padding: 10px;
+}
+
+.menu-nav a:hover{
+	color: #122ab2;
+}
+
+/* Introdução  */
