@@ -277,3 +277,50 @@ img {
 		order: -1;
 	}
 }
+
+/* QUALIDADE */
+
+.qualidade{
+	max-width: 960px;
+	margin: 60px auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.qualidade-item{
+	flex: 1 1 300px;
+	margin: 20px 10px;
+}
+
+.qualidade-item h2 {
+	font-size: 2.25em;
+	color: #a4a4a4;
+	margin-bottom: 20px;
+}
+
+/* vai fazer a barrinha colorida antes do h2*/
+.qualidade-item h2::before{ /*::before = vai colocar as coisas antes do texto h2*/
+	content: '';
+	display: inline-block;
+	width: 8px;
+	height: 30px;
+	margin-right: 10px;
+}
+
+/* vai colorir a barrinha colorida antes do h2*/
+.qualidade-item:nth-of-type(3n+1) h2::before  { /*nth-last-of-type(3n+1) = vai fazer colorir a 1 barrinha e depois de dois colore dnv*/
+	background: #ae81ff;
+}
+
+.qualidade-item:nth-of-type(3n+2) h2::before  { /*nth-last-of-type(3n+1) = vai fazer colorir a 2 barrinha e depois de dois colore dnv*/
+	background: #f9265e;
+}
+
+.qualidade-item:nth-of-type(3n+3) h2::before { /*nth-last-of-type(3n+1) = vai fazer colorir a 3 barrinha e depois de dois colore dnv*/
+	background: #ae81ff;
+}
+
+.qualidade-item p {
+	font-size: 1.25em;
+	line-height: 1.4;
+	color: #7c7c7c;
+}
